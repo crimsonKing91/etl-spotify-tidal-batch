@@ -3,3 +3,14 @@ Ojo aquí: En WSL, los servicios no siempre arrancan solos al prender la compu.
 Cada vez que abras tu terminal para trabajar, verifica que esté corriendo.
 
 -> sudo service postgresql start
+
+POSGRESQL CREDENTIALS
+postgres=# CREATE USER adminDat WITH PASSWORD 'pig8melon';
+CREATE ROLE
+postgres=# CREATE DATABASE spotidal_db;
+CREATE DATABASE
+postgres=# GRANT ALL PRIVILEGES ON DATABASE spotidal_db TO adminDat;
+GRANT
+postgres=# ALTER USER adminDat WITH SUPERUSER;
+ALTER ROLE
+postgres=# 
