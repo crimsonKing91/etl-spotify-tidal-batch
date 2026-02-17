@@ -1,0 +1,5 @@
+Iniciar el Servicio
+Ojo aquí: En WSL, los servicios no siempre arrancan solos al prender la compu. 
+Cada vez que abras tu terminal para trabajar, verifica que esté corriendo.
+
+-> sudo service postgresql start
