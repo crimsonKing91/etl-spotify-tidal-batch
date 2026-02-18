@@ -14,3 +14,12 @@ GRANT
 postgres=# ALTER USER adminDat WITH SUPERUSER;
 ALTER ROLE
 postgres=# 
+
+
+airflow users create \
+    --username AirAdmin \
+    --firstname Leon \  
+    --lastname Dat \
+    --role Admin \
+    --email ldaniel.jrz.vrg91@gmail.com \
+    --password pgmln
